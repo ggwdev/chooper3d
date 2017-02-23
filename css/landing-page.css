@@ -189,9 +189,17 @@ p.copyright {
     font-size: 1.1em; 
 }
 
+.centrer {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 
-
-
+.hr {
+    height: 2px;
+    color: #ccc;
+    background-color: #ccc;
+    width: 20%;
+}
 
 
 

@@ -36,7 +36,6 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
 }
 
 .intro-message {
@@ -116,7 +115,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -201,7 +200,33 @@ p.copyright {
     width: 20%;
 }
 
+/* Parallax */
+.intro-header, .banner {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.section-demoreel {
+    padding-bottom: 150px;
+}
 
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+}
 
-
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    color: white;
+}
